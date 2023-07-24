@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa de dama</title>
+    <link rel="stylesheet" href="Ropadama.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menú</button>
+                <div class="dropdown-content">
+                  <a href="index.html">Inicio</a>
+                  <a href="sobre_nosotros.html">Sobre nosotros</a>
+                  <a href="login.html">Login</a>
+                  <a href="MisioVision.html">Misión y vision</a>
+                  <a href="Ropa dama.html">Ropa dama</a> 
+                  <a href="CalzadoDama.html">Calzado dama</a>  
+                  <a href="CalzadoCaballero.html">Calzado Caballero</a>       
+                </div>
+
+            <img src="" alt="">
+        </nav>
+    </header>
+
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila" >
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img1.jpeg" alt="img1">
+                        <p class="descripcion">Sudadera puma dama</p>
+                        <span class="precio">$500</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img2.jpeg" alt="img2">
+                        <p class="descripcion">playera casual</p>
+                        <span class="precio">$250</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img3.jpeg" alt="img3">
+                        <p class="descripcion">playera casual gris</p>
+                        <span class="precio">$250</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img4.jpeg" alt="img4">
+                        <p class="descripcion">Sudadera casual</p>
+                        <span class="precio">$400</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img5.jpeg" alt="img5">
+                        <p class="descripcion">Mayon caual</p>
+                        <span class="precio">$150</span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img6.jpeg" alt="img6">
+                        <p class="descripcion">Bestido primavera</p>
+                        <span class="precio">$600</span>
+                    </div>
+                </div>
+
+              
+
+               
+
+            </div>
+        </div>
+
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()"  >
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="Ropadaimg/img1.jpeg" alt="" id="img">
+                <h2 id="modelo"></h2>
+                <p id="descripcion"></p>
+
+                <span class="precio" id="precio">$500</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                        <option value="">40</option>
+                        <option value="">42</option>
+                        <option value="">44</option>
+                        <option value="">46</option>
+                        </select>
+                        
+                    </div>   
+                    <button>comprar</button>   
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="RBscript.js"></script>
+
+    <br>
+    <br>
+    <br>
+    
+
+
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Contactanos</h2>
+                <p>Whats app</p>
+                <p>449 973 5131</p>
+            </div>
+            
+        </div>
+    
+        <div class="grupo-2">
+            <small>&#169; 2023 <b>Zapateria Hortensia</b> - Todos los derechos reservados</small>
+    
+        </div>
+      </footer>
+    
+</body>
+</html>

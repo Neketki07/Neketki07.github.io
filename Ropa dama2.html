@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa de dama</title>
+    <link rel="stylesheet" href="Ropadama.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="" alt="">
+            <ul>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="Inicio.html">INICIO</a></li>
+                <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="MisioVision.html">MISION Y VISION</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila" onclick="cargar(this)">
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img1.jpeg" alt="img1">
+                        <p class="descripcion"></p>
+                        <span class="precio"></span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img7.jpeg" alt="img7">
+                        <p class="descripcion"></p>
+                        <span class="precio"></span>
+                    </div>
+                </div>
+
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img8.jpeg" alt="img8">
+                        <p class="descripcion"></p>
+                        <span class="precio"></span>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img9.jpeg" alt="img9">
+                        <p class="descripcion"></p>
+                        <span class="precio"></span>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img10.jpeg" alt="img10">
+                        <p class="descripcion"></p>
+                        <span class="precio"></span>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="contenedor-foto">
+                        <img src="Ropadaimg/img11.jpeg" alt="img11">
+                        <p class="descripcion"></p>
+                        <span class="precio"></span>
+                    </div>
+                </div>
+
+               
+
+            </div>
+        </div>
+
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()"  >
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="" alt="" id="img">
+                <h2 id="modelo">NIKE MODELO 1</h2>
+                <p id="descripcion">Descripcion modelo 1</p>
+
+                <span class="precio" id="precio">$1.300</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                        <option value="">40</option>
+                        <option value="">42</option>
+                        <option value="">44</option>
+                        <option value="">46</option>
+                        </select>
+                        
+                    </div>   
+                    <button>comprar</button>   
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="RBscript.js"></script>
+
+
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Contactanos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, dolore.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, dolore.</p>
+            </div>
+            
+        </div>
+    
+        <div class="grupo-2">
+            <small>&#169; 2023 <b>Zapateria Hortensia</b> - Todos los derechos reservados</small>
+    
+        </div>
+      </footer>
+    
+</body>
+</html>
